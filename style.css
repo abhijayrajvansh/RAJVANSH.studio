@@ -8,6 +8,7 @@
 }
 
 *{
+    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -62,12 +63,13 @@ html, body {
 }
 
 nav {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     /* background-color: rgb(255, 0, 0); */
-    padding: 5.1vh 2vw;
+    padding: 3.5vh 2vw;
 
     h3 {
         font-size: 1.6vw;
@@ -75,18 +77,16 @@ nav {
 }
 
 #headline {
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    
 
     div {
         font-family: myFont;
         font-size: 24vw;
-        line-height: 60vh;
+        line-height: 70vh;
     }
 
 }
@@ -94,5 +94,20 @@ nav {
 #page2 {
     height: 100vh;
     width: 100%;
-    background-color: bisque;
+    /* background-color: #000000; */
+    position: relative;
+
+    img {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+    }
+}
+
+#page2content {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    color: white;
 }
