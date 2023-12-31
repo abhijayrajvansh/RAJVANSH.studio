@@ -20,5 +20,4 @@ const cusrsorEffect = () => {
         })
     })
 }
-
 cusrsorEffect()
